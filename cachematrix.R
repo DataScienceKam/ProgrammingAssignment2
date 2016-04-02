@@ -4,7 +4,11 @@
 ## Write a short comment describing this function
 ## Creates a matrix function that caches the inverse 
 makeCacheMatrix <- function(x = matrix()) {
-         #variable for matrix initialized to NULL
+        ## set the value of the matrix
+	## get the value of the matrix
+	## set the value of the inverse
+	## get the value of the inverse
+	## variable for matrix initialized to NULL
         m = NULL
 	#set value of m
         set = function(y) {
@@ -52,7 +56,7 @@ run <- function(mat){
 	cacheSolve(m)	
 }
 
-#Calling the run function to run the inverse method
+#Calling the run function to run the inverse method to test the functions
 set.seed(123456)
 r = rnorm(1000000)
 mat = matrix(r, nrow=1000, ncol=1000)
